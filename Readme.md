@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Юрий](https://up.htmlacademy.ru/adaptive/19/user/1433977).
-* Наставник: @fatfutor.
+* Наставник: [fatfutor](https://htmlacademy.ru/profile/id186857).
 
 ---
 
