@@ -1,12 +1,150 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>Функциональное питание для котов</title>
+</head>
 
-  </body>
+<body>
+  <header class="header">
+    <a href="/" class="header__logo">
+      <img class="header__logo-image" src="https://via.placeholder.com/191x39" width="191" height="39"
+        alt="Кэт энерджи">
+    </a>
+    <nav class="navbar">
+      <button class="navbar_toggle">Меню</button>
+      <div class="navbar__wrapper">
+        <ul class="navbar__list ">
+          <li class="navbar__item navbar__item--active"><a>Главная</a></li>
+          <li class="navbar__item"><a href="catalog.html">Каталог продукции</a></li>
+          <li class="navbar__item"><a href="form.html">Подбор программы</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="intro">
+      <div class="intro__wrapper">
+        <h1 class="">Функциональное питание для котов</h1>
+        <div class="subtitle">Занялся собой? Займись котом!</div>
+        <a class="intro__btn btn btn--primary" href="form.html">Подобрать программу</a>
+      </div>
+    </section>
+    <section class="main-cat">
+      <div class="main-cat__wrapper">
+        <h2 class="visually-hidden">Каталог</h2>
+        <div class="main-cat__list">
+          <div class="main-cat__item">
+            <div class="main-cat__header">
+              <div class="main-cat__header-icon">
+                <span class="main-cat__icon caticon caticon--cat-slim"></span>
+              </div>
+              <div class="main-cat__header-title">
+                <h3>Похудение</h3>
+              </div>
+            </div>
+            <div class="main-cat__content">
+              <p>Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy
+                Slim поможет вашему питомцу сбросить лишний вес.</p>
+            </div>
+            <div class="main-cat__footer">
+              <a href="catalog.html" class="main-cat__btn btn btn--icon-right">Каталог Slim</a>
+            </div>
+          </div>
+
+          <div class="main-cat__item">
+            <div class="main-cat__header">
+              <div class="main-cat__header-icon">
+                <span class="main-cat__icon caticon caticon--icon-cat-pro"></span>
+              </div>
+              <div class="main-cat__header-title">
+                <h3>Набор массы</h3>
+              </div>
+            </div>
+            <div class="main-cat__content">
+              <p>Заработать авторитет среди дворовых котов и даже собак?
+                Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+            </div>
+            <div class="main-cat__footer">
+              <a href="catalog.html" class="main-cat__btnbtn btn--icon-right">Каталог pro</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="howto">
+      <div class="howto__wrapper">
+        <h2 class="howto__title title-primary">Как это работает</h2>
+        <ul class="howto_list">
+          <li class="howto__item">
+            <div class="howto_icon">
+              <span class="caticon caticon--advantage-1"></span>
+            </div>
+            <div class="howto_description">
+              <p>Функциональное питание содержит только полезные питательные вещества.</p>
+            </div>
+          </li>
+
+          <li class="howto__item">
+            <div class="howto_icon">
+              <span class="caticon caticon--advantage-2"></span>
+            </div>
+            <div class="howto_description">
+              <p>Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</p>
+            </div>
+          </li>
+          <li class="howto__item">
+            <div class="howto_icon">
+              <span class="caticon caticon--advantage-3"></span>
+            </div>
+            <div class="howto_description">
+              <p>Замените один-два приема обычной еды на наше функциональное питание.</p>
+            </div>
+          </li>
+
+          <li class="howto__item">
+            <div class="howto_icon">
+              <span class="caticon caticon--advantage-4"></span>
+            </div>
+            <div class="howto_description">
+              <p>Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__logo">
+      <img class="footer__logo-image" src="https://via.placeholder.com/128x24" width="128" height="24"
+        alt=" Кэт энерджи">
+    </div>
+    <div class="footer__social">
+      <ul class="social-list">
+        <li class="social-item">
+          <a href="#"><span class="caticon caticon--vk"></span></a>
+        </li>
+        <li class="social-item">
+          <a href="#"><span class="caticon caticon--instagram"></span></a>
+        </li>
+        <li class="social-item">
+          <a href="#"><span class="caticon caticon--fb"></span></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__copy">
+
+      <div class="footer__copy-name"><a class="footer__copy-link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">HTML Academy</a></div>
+      <div class="footer__copy-icon">
+        <a class="footer__copy-icon" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
+          <span class="caticon caticon--copy"></span></a>
+        </div>
+    </div>
+  </footer>
+</body>
+
 </html>
