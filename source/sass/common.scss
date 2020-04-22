@@ -26,8 +26,6 @@ body {
 
 .btn {
   text-align: center;
-  background-color: $color-primary;
-  color: $color-inverse;
   padding: 14px 0 11px 0;
   text-transform: uppercase;
   line-height: 1.29;
@@ -36,3 +34,14 @@ body {
   display: block;
   width: 100%;
 }
+
+.btn--primary {
+  background-color: $color-primary;
+  color: $color-inverse;
+}
+
+.btn--default {
+  color: $color-base;
+}
+
+
