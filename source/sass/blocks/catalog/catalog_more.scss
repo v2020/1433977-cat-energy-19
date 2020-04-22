@@ -1,0 +1,27 @@
+.more {
+  height: 210px;
+  text-align: center;
+  padding: 27px 20px 25px 20px;
+}
+
+.more__title {
+  color: $color-black;
+  font-family: $font-family-header;
+  font-size: 16px;
+  line-height: 1.25;
+  display: block;
+  margin-bottom: 11px;
+}
+
+.more__subtitle {
+  line-height: 1.33;
+  font-size: 12px;
+  font-family: $font-family-base;
+  display: block;
+  margin-bottom: 22px;
+}
+
+.more__button-item {
+  background-color: $color-background;
+  color: $color-base;
+}

@@ -1,0 +1,40 @@
+// .header {
+//   // height: 65px;
+// }
+
+.header__logo {
+  margin-top: 11px;
+  padding-left: 20px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar_toggle {
+  display: none;
+}
+
+// .navbar__wrapper {
+
+// }
+
+ul.navbar__list {
+
+  list-style: none;
+}
+
+li.navbar__item {
+  text-align: center;
+  display: block;
+  height: 65px;
+  width: auto;
+
+  a {
+    font-size: 20px;
+    color: $color-black;
+    text-decoration: none;
+    font-family: $font-family-header;
+    font-weight: 500;
+  }
+}

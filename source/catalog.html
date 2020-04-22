@@ -4,26 +4,27 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог продукции</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
   <header class="header">
     <a href="/" class="header__logo">
-      <img class="header__logo-image" src="https://via.placeholder.com/191x39" width="191" height="39"
+      <img class="header__logo-image" src="img/logo-mobile.svg" width="191" height="39"
         alt="Кэт энерджи">
     </a>
     <nav class="navbar">
       <button class="navbar_toggle">Меню</button>
       <div class="navbar__wrapper">
         <ul class="navbar__list ">
-          <li class="navbar__item"><a href="index.html">Главная</a></li>
+          <li class="navbar__item navbar__item--active"><a href="index.html">Главная</a></li>
           <li class="navbar__item"><a>Каталог продукции</a></li>
-          <li class="navbar__item navbar__item--active"><a href="form.html">Подбор программы</a></li>
+          <li class="navbar__item"><a href="form.html">Подбор программы</a></li>
         </ul>
       </div>
     </nav>
   </header>
-
 
   <main class="main">
     <div class="catalog">
@@ -37,7 +38,7 @@
                     src="https://via.placeholder.com/140x144" width="140" height="144" alt=""></a>
               </div>
               <div class="prod__body-info">
-                <h3 class="prod__title"><a href="form.html">Cat Energy<br />PRO 500 г</a></h3>
+                <h3 class="prod__title"><a href="form.html" class="prod__title-link">Cat Energy<br />PRO 500 г</a></h3>
                 <dl class="prod__params dl-table">
                   <dt>Объем</dt>
                   <dd>500 г</dd>
@@ -294,41 +295,43 @@
 
 
   <footer class="footer">
-    <div class="footer__contact footer__contact--grey">
+    <div class="footer__contact footer__contact--white">
       <div class="footer__contact-title">приглашаем к сотрудничеству дилеров!</div>
       <div class="footer__contact-address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
     </div>
     <div class="footer__map">
       <img class="footer__map-image" alt="карта" src="https://via.placeholder.com/320x400" width="320" height="400">
     </div>
-    <div class="footer__logo">
-      <img class="footer__logo-image" src="https://via.placeholder.com/128x24" width="128" height="24"
-        alt=" Кэт энерджи">
-    </div>
-    <div class="footer__social">
-      <ul class="social-list">
-        <li class="social-item">
-          <a href="#"><span class="caticon caticon--vk"></span></a>
-        </li>
-        <li class="social-item">
-          <a href="#"><span class="caticon caticon--instagram"></span></a>
-        </li>
-        <li class="social-item">
-          <a href="#"><span class="caticon caticon--fb"></span></a>
-        </li>
-      </ul>
-    </div>
-    <div class="footer__copy">
 
-      <div class="footer__copy-name"><a class="footer__copy-link" href="https://htmlacademy.ru/intensive/adaptive"
-          target="_blank">HTML Academy</a></div>
-      <div class="footer__copy-icon">
-        <a class="footer__copy-icon" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
-          <span class="caticon caticon--copy"></span></a>
-      </div>
+    <div class="footer__footer">
+        <div class="footer__logo">
+          <img class="footer__logo-image" src="img/logo-footer.svg" width="128" height="24"
+            alt=" Кэт энерджи">
+        </div>
+        <div class="footer__social">
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#"><span class="caticon caticon--vk">vk</span></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><span class="caticon caticon--instagram">inst</span></a>
+            </li>
+            <li class="social-item">
+              <a href="#"><span class="caticon caticon--fb">fb</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__copy">
+          <div class="footer__copy-name"><a class="footer__copy-link" href="https://htmlacademy.ru/intensive/adaptive"
+              target="_blank">HTML Academy</a></div>
+          <div class="footer__copy-icon">
+            <a class="footer__copy-icon" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
+              <img class="footer__copy-icon-image" src="img/htmlacademy.svg" alt="" width="27" height="34">
+            </a>
+          </div>
+        </div>
     </div>
   </footer>
-
 </body>
 
 </html>
