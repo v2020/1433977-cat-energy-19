@@ -11,16 +11,15 @@
 <body>
   <header class="header">
     <a href="/" class="header__logo">
-      <img class="header__logo-image" src="img/logo-mobile.svg" width="191" height="39"
-        alt="Кэт энерджи">
+      <img class="header__logo-image" src="img/logo-mobile.svg" width="191" height="39" alt="Кэт энерджи">
     </a>
     <nav class="navbar">
-      <button class="navbar_toggle">Меню</button>
+      <button class="navbar__toggle">Меню</button>
       <div class="navbar__wrapper">
         <ul class="navbar__list ">
-          <li class="navbar__item navbar__item--active"><a>Главная</a></li>
-          <li class="navbar__item"><a href="catalog.html">Каталог продукции</a></li>
-          <li class="navbar__item"><a href="form.html">Подбор программы</a></li>
+          <li class="navbar__item navbar__item--active"><a class="navbar__item-link">Главная</a></li>
+          <li class="navbar__item"><a href="catalog.html" class="navbar__item-link">Каталог продукции</a></li>
+          <li class="navbar__item"><a href="form.html" class="navbar__item-link">Подбор программы</a></li>
         </ul>
       </div>
     </nav>
@@ -138,7 +137,8 @@
       </div>
       <div class="example__cat">
         <img class="example__cat-image-1" alt="Было" src="https://via.placeholder.com/311x232" width="311" height="232">
-        <img class="example__cat-image-2" alt="Стало" src="https://via.placeholder.com/311x232" width="311" height="232">
+        <img class="example__cat-image-2" alt="Стало" src="https://via.placeholder.com/311x232" width="311"
+          height="232">
       </div>
       <div class="example__before-after">
         <div class="example__before">Было</div>
@@ -149,41 +149,41 @@
   </main>
 
   <footer class="footer">
-    <div class="footer__contact footer__contact--white">
-      <div class="footer__contact-title">приглашаем к сотрудничеству дилеров!</div>
-      <div class="footer__contact-address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
+    <div class="footer__top">
+      <div class="footer__contact footer__contact--white">
+        <div class="footer__contact-title">приглашаем к сотрудничеству дилеров!</div>
+        <div class="footer__contact-address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
+      </div>
+      <div class="footer__map">
+        <img class="footer__map-image" alt="карта" src="https://via.placeholder.com/320x400" width="320" height="400">
+      </div>
     </div>
-    <div class="footer__map">
-      <img class="footer__map-image" alt="карта" src="https://via.placeholder.com/320x400" width="320" height="400">
-    </div>
-
-    <div class="footer__footer">
-        <div class="footer__logo">
-          <img class="footer__logo-image" src="img/logo-footer.svg" width="128" height="24"
-            alt=" Кэт энерджи">
+    <div class="footer__bottom">
+      <div class="footer__logo">
+        <img class="footer__logo-image" src="img/logo-footer.svg" width="128" height="24" alt=" Кэт энерджи">
+      </div>
+      <div class="footer__social">
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a href="https://vk.com" class="social-list__link"><span class="visually-hidden">В контакте</span></a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://instagram.com" class="social-list__link"><span class="visually-hidden">Instagram</span></a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://facebook.com" class="social-list__link"><span class="visually-hidden">Facebook</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copy">
+        <div class="footer__copy-name"><a class="footer__copy-link" href="https://htmlacademy.ru/intensive/adaptive"
+            target="_blank">HTML Academy</a></div>
+        <div class="footer__copy-icon">
+          <a class="footer__copy-icon" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
+            <img class="footer__copy-icon-image" src="img/htmlacademy.svg" alt="" width="27" height="34">
+          </a>
         </div>
-        <div class="footer__social">
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="#"><span class="caticon caticon--vk">vk</span></a>
-            </li>
-            <li class="social-item">
-              <a href="#"><span class="caticon caticon--instagram">inst</span></a>
-            </li>
-            <li class="social-item">
-              <a href="#"><span class="caticon caticon--fb">fb</span></a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer__copy">
-          <div class="footer__copy-name"><a class="footer__copy-link" href="https://htmlacademy.ru/intensive/adaptive"
-              target="_blank">HTML Academy</a></div>
-          <div class="footer__copy-icon">
-            <a class="footer__copy-icon" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
-              <img class="footer__copy-icon-image" src="img/htmlacademy.svg" alt="" width="27" height="34">
-            </a>
-          </div>
-        </div>
+      </div>
     </div>
   </footer>
 </body>

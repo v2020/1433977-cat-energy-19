@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar__toggle {
+  display: none;
+}
+
+// .navbar__wrapper {
+
+// }
+
+.navbar__list {
+
+  list-style: none;
+}
+
+.navbar__item {
+  text-align: center;
+  display: block;
+  height: 65px;
+  width: auto;
+}
+
+.navbar__item-link {
+  font-size: 20px;
+  color: $color-black;
+  text-decoration: none;
+  font-family: $font-family-header;
+  font-weight: 500;
+}

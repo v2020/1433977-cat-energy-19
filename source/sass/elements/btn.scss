@@ -1,0 +1,19 @@
+.btn {
+  text-align: center;
+  padding: 14px 0 11px 0;
+  text-transform: uppercase;
+  line-height: 20px;
+  font-family: $font-family-header;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.btn--primary {
+  background-color: $color-primary;
+  color: $color-inverse;
+}
+
+.btn--default {
+  color: $color-base;
+}

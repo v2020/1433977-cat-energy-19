@@ -1,9 +1,19 @@
-@import "oswald";
+@import "font";
 @import "variables";
 @import "common";
 @import "blocks/header";
+@import "blocks/navbar";
+@import "blocks/main";
 @import "blocks/footer";
+@import "blocks/social-list";
+// index
 @import "blocks/index/intro";
 @import "blocks/index/main-cat";
 @import "blocks/index/howto";
+// catalog
+@import "blocks/catalog/catalog_more";
+@import "blocks/catalog/catalog_prod";
 @import "blocks/catalog/catalog";
+// common elements
+@import "elements/title.scss";
+@import "elements/btn.scss";
