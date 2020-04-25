@@ -6,6 +6,7 @@
 @import "blocks/main";
 @import "blocks/footer";
 @import "blocks/social-list";
+@import "blocks/visually-hidden";
 // index
 @import "blocks/index/intro";
 @import "blocks/index/main-cat";
@@ -15,5 +16,5 @@
 @import "blocks/catalog/catalog_prod";
 @import "blocks/catalog/catalog";
 // common elements
-@import "elements/title.scss";
-@import "elements/btn.scss";
+@import "blocks/title.scss";
+@import "blocks/btn.scss";
