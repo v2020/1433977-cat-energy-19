@@ -1,0 +1,29 @@
+.footer__bottom {
+  background-color: $color-background;
+  padding: 20px;
+}
+
+.footer__logo {
+  padding-top: 39px;
+}
+
+.footer__logo-image {
+  display: block;
+  margin: auto;
+}
+
+// .footer__copy {
+// }
+
+.footer__copy-link {
+  font-size: 16px;
+  color: $color-base;
+  text-decoration: none;
+}
+
+.footer__copy-name {
+  display: inline-block;
+}
+
+// .footer__copy-icon {
+// }
