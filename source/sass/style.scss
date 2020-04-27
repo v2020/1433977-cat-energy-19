@@ -11,10 +11,17 @@
 @import "blocks/index/intro";
 @import "blocks/index/main-cat";
 @import "blocks/index/howto";
+@import "blocks/index/example";
+
 // catalog
 @import "blocks/catalog/catalog_more";
 @import "blocks/catalog/catalog_prod";
 @import "blocks/catalog/catalog";
+@import "blocks/catalog/add";
+@import "blocks/catalog/banner";
+// form
+@import "blocks/form/form";
 // common elements
 @import "blocks/title.scss";
 @import "blocks/btn.scss";
+@import "blocks/dl-table";

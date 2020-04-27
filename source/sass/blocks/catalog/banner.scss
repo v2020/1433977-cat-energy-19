@@ -1,0 +1,28 @@
+.banner {
+  height: 289px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #ffffff;
+  text-align: center;
+  background: url("../img/gift-photo-mobile@1x.jpg");
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.banner__icon {
+  padding-top: 65px;
+}
+
+// .banner__icon-img {
+//   color:#ffffff;
+// }
+
+.banner__description {
+  padding-top: 54px;
+  padding-bottom: 43px;
+  font-family: $font-family-base;
+  font-size: 16px;
+  height: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}

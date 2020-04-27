@@ -1,0 +1,72 @@
+// .example {
+// }
+
+.example__wrapper {
+  padding-top: 33px 38px;
+}
+
+// .example__header {
+// }
+
+.example__title {
+  padding-bottom: 33px;
+}
+
+.example__description {
+  line-height: 18px;
+  font-size: 14px;
+  font-family: $font-family-base;
+  padding-bottom: 27px;
+}
+
+.example__params-value {
+  color: $color-black;
+  font-family: $font-family-header;
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 124px;
+  border: solid 1px #cdcdcd;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.example__params-label {
+  color: $color-base;
+  font-size: 12px;
+  font-family: $font-family-base;
+  text-transform: none;
+}
+
+// .example__params {
+// }
+
+.example__price {
+  color: $color-black;
+  font-family: $font-family-header;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+// .example__cat {
+// }
+
+// .example__before-after {
+// }
+
+.example__before {
+  color: $color-black;
+  font-family: $font-family-header;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+// .example__side {
+
+// }
+
+.example__after {
+  color: $color-black;
+  font-family: $font-family-header;
+  font-size: 16px;
+  text-transform: uppercase;
+}
