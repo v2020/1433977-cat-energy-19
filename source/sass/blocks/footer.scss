@@ -1,3 +1,26 @@
+.footer__contact {
+  padding: 33px 25px 28px 25px;
+  background-color: $color-background;
+}
+
+.footer__contact--white {
+  background-color: #ffffff;
+}
+
+.footer__contact-title {
+  color: $color-black;
+  font-family: $font-family-header;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.footer__contact-address {
+  line-height: 20px;
+  font-size: 14px;
+  font-family: $font-family-base;
+}
+
 .footer__bottom {
   background-color: $color-background;
   padding: 20px;
